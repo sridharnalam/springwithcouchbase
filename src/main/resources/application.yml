@@ -1,0 +1,8 @@
+# Alternatively we can user spring config server or vault for this config
+app:
+  couchbase:
+    connection-string : couchbase://127.0.0.1
+    user-name : test
+    password : test123
+    primary-bucket : customer
+    user-bucket : user
